@@ -1,0 +1,55 @@
+body{
+	/*background-color: green;*/
+}
+
+.container{
+	background: rgb(200,255,50);
+	width: 1000px;
+	height: 350px;
+}
+@media only screen and (max-width: 600px){
+	.container{
+		/*display: none;*/
+		width: 320px;
+		background: red;
+	}
+	h1{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.container{
+		/*display: none;*/
+		width: 700px;
+		background: blue;
+		border: 10px solid yellow;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+
+.container2{
+	width: 1000px;
+	height: 350px;
+	background: dodgerblue;
+	position: relative;
+}
+
+/*@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.container2{*/
+		/*display: none;*/
+		/*width: 100%;
+		background: blue;*/
+		/*border: 10px solid yellow;*/
+/*		top: 10px;
+	}
+}*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 411px){
+	.container2{
+			background-color: purple;
+			border: 3px dotted white;
+	}
+}
